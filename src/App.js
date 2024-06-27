@@ -8,10 +8,8 @@ function App() {
     const fetchData = async () => {
 
       try {
-        const response = await fetch('/api.js');
+        const response = await fetch('/data.js');
         console.log(response,"---------")
-
-
       } catch (error) {
         console.log(error)
       }
@@ -21,7 +19,7 @@ function App() {
   return (
    <div>
     Task json
-    <JsonData/>
+    {/* <JsonData/> */}
     <Apidata/>
    </div>
   );
