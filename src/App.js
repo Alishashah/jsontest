@@ -9,8 +9,7 @@ function App() {
 
       try {
         const response = await fetch('/api.js');
-        const jsonData = await response.json();
-        console.log(jsonData,"jsondata")
+        console.log(response,"---------")
 
 
       } catch (error) {
