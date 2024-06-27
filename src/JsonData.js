@@ -32,18 +32,7 @@ const JsonData = () => {
   return (
     <div>
 
-      <pre>{data.map((ele)=>{
-         console.log(ele)
-        return(
-            <ul>
-                <li>{ele.name}</li>
-                <li>{ele.age}</li>
-                <li>{ele.city}</li>
-                <li>newdata</li>
-                {/* <li>newdata again</li> */}
-            </ul>
-        )
-      })}</pre>
+    
     </div>
   );
 };
