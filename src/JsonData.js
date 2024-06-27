@@ -40,6 +40,7 @@ const JsonData = () => {
                 <li>{ele.age}</li>
                 <li>{ele.city}</li>
                 <li>newdata</li>
+                <li>newdata again</li>
             </ul>
         )
       })}</pre>
