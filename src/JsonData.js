@@ -39,6 +39,7 @@ const JsonData = () => {
                 <li>{ele.name}</li>
                 <li>{ele.age}</li>
                 <li>{ele.city}</li>
+                <li>newdata</li>
             </ul>
         )
       })}</pre>
